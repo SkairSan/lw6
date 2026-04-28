@@ -1,0 +1,13 @@
+{
+    "name": "skair/booking",
+    "autoload": {
+        "psr-4": {
+            "Booking\\": "src/",
+            "Car\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpstan/phpstan": "^2.1"
+    }
+}
